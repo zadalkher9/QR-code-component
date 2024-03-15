@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+body{
+    background-color: var(--Light-gray);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.qrBox{
+    background-color: var(--White);
+    width: 280px;
+    border-radius: 15px;
+    
+}
+.qrImage {
+    width: 250px;
+    
+}
+.qrImage img {
+    width: 100%;
+    border-radius: 15px;
+
+    
+}
+.container .qrImage{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    display: block;
+    overflow: hidden;
+}
+.qrText h2{
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 1.3rem;
+    color: var(--Dark-blue);
+
+
+}
+.qrText p{
+    font-size: 15px;
+    color: var(--Grayish-blue);
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.attribution {
+    margin-top: 40px;
+    font-size: 12px;
+    text-align: center;
+  }
+.attribution a{
+    text-decoration: none;
+    color: var(--Grayish-blue);
+}
